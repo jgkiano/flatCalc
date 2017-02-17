@@ -139,10 +139,6 @@ class FlatCalcModel: NSObject {
             labelHistory = ""
             hasPressedEquals = false
         }
-        //////check this out////////
-        if (isPerformingMathFunc) {
-            
-        }
         buildHistory(o: operations[currOp]!)
         if(leftNum == nil) {
             leftNum = labelNumber
