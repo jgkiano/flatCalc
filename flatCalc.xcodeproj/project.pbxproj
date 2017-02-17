@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D161E301E54710700130CCB /* FlatCalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D161E2F1E54710700130CCB /* FlatCalcModel.swift */; };
 		9DF928301E52EE1800EE4A06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9282F1E52EE1800EE4A06 /* AppDelegate.swift */; };
 		9DF928321E52EE1800EE4A06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF928311E52EE1800EE4A06 /* ViewController.swift */; };
 		9DF928351E52EE1800EE4A06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF928331E52EE1800EE4A06 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D161E2F1E54710700130CCB /* FlatCalcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatCalcModel.swift; sourceTree = "<group>"; };
 		9DF9282C1E52EE1800EE4A06 /* flatCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flatCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF9282F1E52EE1800EE4A06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DF928311E52EE1800EE4A06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				9DF928361E52EE1800EE4A06 /* Assets.xcassets */,
 				9DF928381E52EE1800EE4A06 /* LaunchScreen.storyboard */,
 				9DF9283B1E52EE1800EE4A06 /* Info.plist */,
+				9D161E2F1E54710700130CCB /* FlatCalcModel.swift */,
 			);
 			path = flatCalc;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DF928321E52EE1800EE4A06 /* ViewController.swift in Sources */,
+				9D161E301E54710700130CCB /* FlatCalcModel.swift in Sources */,
 				9DF928301E52EE1800EE4A06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				9DF928561E52EE1800EE4A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DF928571E52EE1800EE4A06 /* Build configuration list for PBXNativeTarget "flatCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				9DF928591E52EE1800EE4A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DF9285A1E52EE1800EE4A06 /* Build configuration list for PBXNativeTarget "flatCalcUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				9DF9285C1E52EE1800EE4A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
